@@ -1,16 +1,12 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# ДЗ 8.2. Паліандром
+# Ваше завдання – написати функцію is_palindrome, яка перевірятиме, чи є рядок паліндромом.
+# Паліндромом - це такий рядок, який читається однаково зліва направо і зправа наліво без урахування знаків пунктуації та розмірності букв.
+# Функція приймає на вхід рядок, та повертає булеве значення True або False
+# Приклад:
+# def is_palindrome(text):
+#     pass
+# assert is_palindrome('A man, a plan, a canal: Panama') == True, 'Test1'
+# assert is_palindrome('0P') == False, 'Test2'
+# assert is_palindrome('a.') == True, 'Test3'
+# assert is_palindrome('aurora') == False, 'Test4'
+# print("ОК")
